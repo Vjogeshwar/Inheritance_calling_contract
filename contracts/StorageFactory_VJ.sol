@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MIT 
+// SPDX-License-Identifier: MIT  
 
 pragma solidity  ^0.6.0;
 
@@ -10,7 +10,7 @@ import "./Simple_Storage_VJ.sol";
 //This is the way to import any type of file or a contract.
 
 
-contract StorageFactory is SimpleStorage { //Ineheritace, now we will have all variables and fuctions available directly inside StorageFactory
+contract StorageFactory {
     //Deploy a contract from a contract
     
     //Create an array of type SimpleStorage contract.
